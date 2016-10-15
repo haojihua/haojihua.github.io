@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Filed Experience - Jihua</title>
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script
+		src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+    <script type="text/javascript" src="./slick/slick.js"></script>
+    
+    
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+    
+    
+<script>
+
+$(function(){
+    $('.ui.dropdown')
+    .dropdown({
+        action: 'select'
+    });
+});
+</script>
+
+	<style type="text/css">
+
+.dividing{
+  
+  padding-top: 4em;
+}
+
+.overlay {
+	float: left;
+	margin: 0em 3em 1em 0em;
+}
+
+.overlay .menu {
+	position: relative;
+	left: 0;
+	transition: left 0.5s ease;
+}
+
+.main.menu.fixed {
+	background-color: #FFFFFF;
+	border: 1px solid #DDD;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.overlay .ui.menu .item {
+	line-height: 1.5;
+}
+
+.overlay.fixed .menu {
+	left: 800px;
+}
+
+.ui.footer.segment {
+    margin: 2em 0em 0em;
+    padding: 1em 0em;
+}
+
+</style>
+</head>
+<body>
+	<div class="ui fixed inverted menu">
+		<div class="ui container">
+			<a href="#" class="header item"> 
+<!-- 			  <img class="logo" src="assets/images/logo.png">  -->
+			  Jihua Hao 
+			</a>  
+				
+			<a href="./index.html" class="item">
+			Home
+			</a> 
+			<a href="./resume.html" class="item">
+			Resume
+			</a>
+			<div class="ui simple dropdown">
+				<a href="./research.html" class="item">Research <i class="dropdown icon"></i></a>
+				<div class="menu">
+					<a class="item" href="./research.html#EarlyEarthSurface">Early Earth Surface Environment</a> 
+					<a class="item" href="./research.html#HighTP">High T-P Aqueous Geochemistry</a>
+					<a class="item" href="./research.html#Astrobiology">Astrobiology</a>
+					<a class="item" href="./research.html#Thertools">Thermodynamics-theory and tools</a>
+				</div>
+			</div>
+			<!--<a href="./research.html" class="item">Research</a>-->
+			<a href="#" class="item active">Field Experience</a> 
+			
+			<a
+				href="./photo.html" class="item">Photo Gallery</a> 
+
+
+		</div>
+	</div>
+
+
+	<div class="main ui container dividing" id="content">
+	    <h2>2016 Pilbara Craton field trip</h2>
+		<div class="lazy" id="PilbaraCraton">
+			
+		</div>
+
+		<p>
+			This field trip is part of the <a
+				href="http://www.aa-meeting2016.com/?page_id=242">Australasian
+				Astrobiology Meeting</a> in Perth, AU. An international group formed by
+			biologists, geologists, geochemists, chemists, and physicists, is
+			leaded by Prof. Martin van Kranendonk and Tara Djokic (UNSW). We
+			investigated all of the major localities with claims of early life,
+			and the habitability of the early Earth environments.
+		</p>
+
+		<p>
+		This fieldtrip was funded by the Elliott Field Fund awarded by
+			the Dept. Earth & Planetary Sciences, Johns Hopkins University.
+		</p>
+
+
+	</div>
+	
+	<div class="main ui container dividing" >
+	    <h2>2016 Yellowstone field trip</h2>
+		<div class="lazy" id="Yellowstone2016">
+			
+		</div>
+
+		<p>This field trip is part of the Second DCO Summer School organized
+			by the Deep Carbon Observatory. An international group of early
+			career scientists and ten instructors with various backgrounds
+			attended this event. The field trip is mainly to examine the tectonic
+			settings and biological and geochemical characteristics of the
+			hydrothermal activity. We also worked together to sample the fluid
+			and gas from the low-T hydrothermal vents.
+			</p>
+
+		<p>
+		The summer school is fully supported by the Deep Carbon Observatory. 
+		</p>
+
+
+	</div>
+	
+	<div class="ui inverted vertical footer segment">
+		<div class="ui  center aligned container">© 2016 Jihua Hao</div>
+
+	</div>
+
+<script>
+
+ 
+
+var result1;
+var result2;
+
+$.when(
+		$.ajax({
+		    url : "assets/2016PilbaraCraton/",
+		    success: function (data1) {
+		        $(data1).find("a").attr("href", function (i, val) {
+		        	 
+		            if( val.match(/\.(jpe?g|JPG|png|gif)$/) ) { 
+		            	 
+		                $("#PilbaraCraton").append( "<div><div class='ui image large'><img data-lazy='"+ "assets/2016PilbaraCraton/" + val +"' ></div></div>" );
+		                
+		            } 
+		        });
+		        
+		     
+		    }
+		}),
+
+		$.ajax({
+		    url : "assets/Yellowstone2016/",
+		    success: function (data2) {
+		        $(data2).find("a").attr("href", function (i, val) {
+		        	 
+		            if( val.match(/\.(jpe?g|JPG|png|gif)$/) ) { 
+		            	 
+		                $("#Yellowstone2016").append( "<div><div class='ui image large'><img data-lazy='"+ "assets/Yellowstone2016/" + val +"' ></div></div>" );
+		                
+		            } 
+		        });
+		        
+		        
+		    }
+		})
+
+).then(function() {
+	$('.lazy').slick({
+    	  lazyLoad: 'ondemand',
+    	  slidesToShow: 3,
+    	  slidesToScroll: 1,
+    	  autoplay: true,
+    	  autoplaySpeed: 2000
+    	});
+});
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
