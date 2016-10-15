@@ -1,4 +1,5 @@
 #!/bin/bash
+#script form https://unix.stackexchange.com/questions/38943/use-mogrify-to-resize-large-files-while-ignoring-small-ones
 files=*
 minimumWidth=800
 minimumHeight=800
