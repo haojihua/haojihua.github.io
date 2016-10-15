@@ -165,94 +165,73 @@ $(function(){
 
 	var galleries = [ {
 		"divid" : "portrait",
-		"folder" : "1-Portraits"
+		"folder" : "1-Portraits",
+		"imgs":['2016-Geology Dog in Pilbara.jpg','2016 Summer in Australia.JPG','2016 Yellowstone-1.JPG','2016 Yellowstone-2.JPG']
 	}, {
 		"divid" : "familyfriends",
-		"folder" : "2-Family & Friends"
+		"folder" : "2-Family & Friends",
+		"imgs":['2015 Birthday in CIW with Friends.jpeg','2015 with Dongdong in AGU.jpeg','2015 with Friends in Hefei.jpeg','2015 with friends in Prague.jpeg','2015 with girlfriend in Hefei.jpeg',"2016 Boys in Xu's Wedding.jpg",'2016 Fang and his brother.jpg','2016 My niece.jpg','2016 with Ben Jelen in RPI.jpg','2016 with Bob and Shaunna in Yellowstone.JPG','2016 with Tara in Pilbara.jpg']
 	}, {
 		"divid" : "lifeinterests",
-		"folder" : "3-Life interests"
+		"folder" : "3-Life interests",
+		"imgs":['2015 biking.jpeg','2016 skiiing.jpg','Cooking.jpeg']
 	}, {
 		"divid" : "travels",
-		"folder" : "4-Travels"
+		"folder" : "4-Travels",
+		"imgs":['2015-Prague Square.jpeg','2016-Bozeman.jpg','2016-RPI-1.jpg','2016-RPI-2.jpg','2016-RPI-3.jpg','2016-UWA night view.jpg','2016-Yokohama.JPG']
 	} ];
 
 	var gallery;
 
 	//alert(galleries.length);
 
+	 
 	for ( var current = 0; current < galleries.length; current++) {
 		gallery = galleries[current];
+        for (var i=0;i<gallery['imgs'].length;i++){
+        	var val=gallery['imgs'][i];
+		    $('#'+ gallery['divid'])
+				.append(
+						"<div class='ui image'><a title='"+decodeURI(val)+ "' href='"+"assets/5-photos/"+gallery['folder']+"/" + val +"' '><img src='"+ "assets/5-photos/"+gallery['folder']+"/" + val +"' ></div>");
 
-		$
-				.when(
-						$
-								.ajax({
-									url : "assets/5-photos/"
-											+ gallery['folder'] + "/",
-									gallery : gallery,
-									success : function(data1) {
+		    $('#' + this.gallery['divid'])
+			.magnificPopup(
+					{
+						delegate : 'a',
+						type : 'image',
+						closeOnContentClick : false,
+						closeBtnInside : false,
+						mainClass : 'mfp-with-zoom mfp-img-mobile',
+						image : {
+							verticalFit : true,
+							titleSrc : function(item) {
+								return item.el
+										.attr('title')
+										+ ' &middot; <a class="image-source-link" href="'
+										+ item.el
+												.attr('href')
+										+ '" target="_blank">image source</a>';
+							}
+						},
+						gallery : {
+							enabled : true
+						},
+						zoom : {
+							enabled : true,
+							duration : 300, // don't foget to change the duration also in CSS
+							opener : function(element) {
+								return element
+										.find('img');
+							}
+						}
 
-										var gallery = this.gallery;
-										$(data1)
-												.find("a")
-												.attr(
-														"href",
-														function(i, val) {
+					});
+		 
+		 
+							
 
-															if (val
-																	.match(/\.(jpe?g|JPG|png|gif)$/)) {
-
-																$(
-																		'#'
-																				+ gallery['divid'])
-																		.append(
-																				"<div class='ui image'><a title='"+decodeURI(val)+ "' href='"+"assets/5-photos/"+gallery['folder']+"/" + val +"' '><img src='"+ "assets/5-photos/"+gallery['folder']+"/" + val +"' ></div>");
-
-															}
-														});
-
-									}
-								})
-
-				)
-				.then(
-						function() {
-							//alert(this.gallery['divid']);
-							$('#' + this.gallery['divid'])
-									.magnificPopup(
-											{
-												delegate : 'a',
-												type : 'image',
-												closeOnContentClick : false,
-												closeBtnInside : false,
-												mainClass : 'mfp-with-zoom mfp-img-mobile',
-												image : {
-													verticalFit : true,
-													titleSrc : function(item) {
-														return item.el
-																.attr('title')
-																+ ' &middot; <a class="image-source-link" href="'
-																+ item.el
-																		.attr('href')
-																+ '" target="_blank">image source</a>';
-													}
-												},
-												gallery : {
-													enabled : true
-												},
-												zoom : {
-													enabled : true,
-													duration : 300, // don't foget to change the duration also in CSS
-													opener : function(element) {
-														return element
-																.find('img');
-													}
-												}
-
-											});
-
-						});
+						
+	 }
 	}
 
 	

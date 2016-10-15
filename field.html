@@ -153,52 +153,35 @@ $(function(){
 
  
 
-var result1;
-var result2;
+ 
 
-$.when(
-		$.ajax({
-		    url : "assets/2016PilbaraCraton/",
-		    success: function (data1) {
-		        $(data1).find("a").attr("href", function (i, val) {
-		        	 
-		            if( val.match(/\.(jpe?g|JPG|png|gif)$/) ) { 
-		            	 
-		                $("#PilbaraCraton").append( "<div><div class='ui image large'><img data-lazy='"+ "assets/2016PilbaraCraton/" + val +"' ></div></div>" );
-		                
-		            } 
-		        });
-		        
-		     
-		    }
-		}),
+var galleries = [ {
+	"divid" : "PilbaraCraton",
+	"folder" : "2016PilbaraCraton",
+	"imgs":["10-Corniformed stromatolites in Trendall locality.png","11-Marble Bar Chert.png","12-Schopf locality.png","13-Rippled carbonate siltstone in Tumbiana Formation.png","14-Domical structure formed by Stromatolites.png","1-Group.JPG","2-Campsite.JPG","3-Greenhouse in the campsite.JPG","4-Black cherts.JPG","5-Kaolinite-illite.JPG","6-Dresser geyserite.png","7-Microbial mat in Dresser Formation.png","8-Ripples in Dresser Formation.png","9-Laminitated carbonate in Trendall locality.png"]
+}, {
+	"divid" : "Yellowstone2016",
+	"folder" : "Yellowstone2016",
+	"imgs":["1-Group.jpg","IMG_2045.JPG","IMG_2093.JPG","IMG_2103.JPG","IMG_2147.JPG","IMG_2159.JPG","IMG_2171.JPG","IMG_2200.JPG","IMG_2205.JPG","IMG_2208.JPG","IMG_2243.JPG","IMG_2253.JPG","IMG_2263.JPG","IMG_2299.JPG","IMG_2314.JPG","IMG_2316.JPG","IMG_2323.JPG","IMG_2332.JPG","IMG_2334.JPG","IMG_2338.JPG","IMG_2365.JPG","IMG_2401.JPG","IMG_2429.JPG","IMG_2437.JPG","IMG_2447.JPG","IMG_2458.JPG","IMG_2464.JPG","IMG_2469.JPG","IMG_2478.JPG","IMG_2484.JPG","IMG_2493.JPG","IMG_2495.JPG","IMG_2504.JPG"]
+} ];
 
-		$.ajax({
-		    url : "assets/Yellowstone2016/",
-		    success: function (data2) {
-		        $(data2).find("a").attr("href", function (i, val) {
-		        	 
-		            if( val.match(/\.(jpe?g|JPG|png|gif)$/) ) { 
-		            	 
-		                $("#Yellowstone2016").append( "<div><div class='ui image large'><img data-lazy='"+ "assets/Yellowstone2016/" + val +"' ></div></div>" );
-		                
-		            } 
-		        });
-		        
-		        
-		    }
-		})
+for ( var current = 0; current < galleries.length; current++) {
+	gallery = galleries[current];
+    for (var i=0;i<gallery['imgs'].length;i++){
+    	var val=gallery['imgs'][i];
+    	$('#'+ gallery['divid']).append( "<div><div class='ui image large'><img data-lazy='"+ "assets/4-field/"+gallery['folder']+"/" + val +"' ></div></div>" );
+    }
+}
 
-).then(function() {
-	$('.lazy').slick({
-    	  lazyLoad: 'ondemand',
-    	  slidesToShow: 3,
-    	  slidesToScroll: 1,
-    	  autoplay: true,
-    	  autoplaySpeed: 2000
-    	});
-});
-
+$('.lazy').slick({
+	  lazyLoad: 'ondemand',
+	  slidesToShow: 3,
+	  slidesToScroll: 1,
+	  autoplay: true,
+	  autoplaySpeed: 2000
+	});
+	
+ 
 
 
 
