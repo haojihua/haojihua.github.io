@@ -1,0 +1,336 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>简历 — 郝记华</title>
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script
+		src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
+	<style type="text/css">
+.overlay {
+	float: left;
+	margin: 0em 3em 1em 0em;
+}
+
+.overlay .menu {
+	position: relative;
+	left: 0;
+	transition: left 0.5s ease;
+}
+
+.main.menu.fixed {
+	background-color: #FFFFFF;
+	border: 1px solid #DDD;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.overlay .ui.menu .item {
+	line-height: 1.5;
+}
+
+.overlay.fixed .menu {
+	left: 800px;
+}
+
+.ui.footer.segment {
+    margin: 2em 0em 0em;
+    padding: 1em 0em;
+}
+
+</style>
+</head>
+<body>
+	<div class="ui fixed inverted menu">
+		<div class="ui container">
+			<a href="#" class="header item"> 
+<!-- 			  <img class="logo" src="assets/images/logo.png">  -->
+			  Jihua Hao 
+			</a>  
+			
+			<a href="index.html" class="item">Home</a> 
+			
+			<a href="#" class="item">Resume</a>
+			<div class="ui simple dropdown">
+				<a href="./research.html" class="item">Research <i class="dropdown icon"></i></a>
+				<div class="menu">
+					<a class="item" href="./research.html#EarlyEarthSurface">Early Earth Surface Environment</a> 
+					<a class="item" href="./research.html#HighTP">High T-P Aqueous Geochemistry</a>
+					<a class="item" href="./research.html#Astrobiology">Astrobiology</a>
+					<a class="item" href="./research.html#Thertools">Thermodynamics-theory and tools</a>
+				</div>
+			</div>
+			<!--<a href="./research.html" class="item">Research</a>-->
+			<a href="./field.html" class="item">Field Experience</a> 
+			<a href="./jianli.html" class="item">简历</a> 
+			
+<!-- 			<a href="./contact.html" class="item">Contact</a> -->
+
+		</div>
+	</div>
+
+
+	<div class="ui main text container" style="padding-top:3em">
+        
+        
+        <h2>工作经历</h2>
+        <ul>
+           <li>研究员, 中国科学技术大学, 2021年1月 至今.</li>
+	   <li>附属研究员, Blue Marble Space Institute of Science, 2021年1月 至今.</li>
+	   <li>博士后, 美国罗格斯大学-NASA天体生物学实验室, 2019年9月 至 2020年12月</li>
+	   <li>博士后, 法国里昂第一大学和法国高等师范（里昂）地质研究所, 2016年12月 至 2019年8月</li>
+	   <li>研究助理, 美国约翰霍普金斯大学, 2014年7月 至 2016年12月</li>
+           <li>教学助理, 美国约翰霍普金斯大学, 2013年9月 至 2016年6月</li>
+        </ul>
+		
+		
+        <h2>教育背景</h2>
+        <ul>
+           <li><b>博士</b> 美国约翰霍普金斯大学，地球化学专业, 2012年8月 至 2016年11月</li>
+           <li><b>M.A.</b> in Geochemistry, Johns Hopkins University, Baltimore, Maryland, USA, August 2012 - March, 2014 </li>
+           <li><b>B.Eng.</b> in Environmental Science, University of Science & Technology (USTC), Hefei, Anhui, China, August, 2008 - July, 2012</li>
+        </ul>
+		 
+        <h2>Research Interests</h2>
+        <ul>
+	   <li>Early Earth surface environments</li>
+	   <li>Co-evolution of the geo- and biospheres</li>
+	   <li>Origin of life on Earth and habitability of life in other planets</li>
+	   <li>Photochemistry under planetary conditions</li>
+	   <li>High temperature and pressure aqueous geochemistry</li>
+           <li>Interfacial geochemistry and mineral-water surface processes</li>
+	   <li>Thermodynamic theories with applications to geochemistry</li>
+	   <li>Mineral evolution and mineral ecology</li>                  
+        </ul>
+        
+        
+        
+        <h2>Publications</h2>
+        <ul>
+	   <li><a href="http://www.sciencedirect.com/science/article/pii/S0012821X16305787">
+		   1. <b>Hao, J.</b>, Sverjensky, D.A., and Hazen, R.M. A Model for Late Archean Chemical Weathering and 
+		   World Average River Water, <i>Earth and Planetary Science Letters</i> (2017)</a></li>
+           <li><a href="http://www.sciencedirect.com/science/article/pii/S0009254117301663">
+		   2. Estrada, C.F., Mamajov, I., <b>Hao, J.</b>, Sverjensky, D.A., Cody, G.D., Hazen, R.M. 
+		   Aspartate transformation at 200 °C with brucite [Mg(OH)2], NH3, and H2: 
+		   Implications for prebiotic molecules in hydrothermal systems. <i>Chemical Geology</i> (2017)</a></li>
+	   <li><a href="http://www.sciencedirect.com/science/article/pii/S0012821X1730256X">
+		   3. <b>Hao, J.</b>, Sverjensky, D.A., and Hazen, R.M. Mobility of nutrients and trace elements during 
+		   weathering in the late Archean, <i>Earth and Planetary Science Letters</i> (2017)</a></li>
+           <li><a href="https://www.liebertpub.com/doi/10.1089/ast.2017.1735">4. (COVER & FEATURE ARTICLE) <b>Hao, J.</b>, 
+		   Giovenco, E., Pedreira-Segade, U., Montagnac, G., and Daniel, I. Compatibility of amino acids in ice Ih: 
+		   implications for the origin of life, <i>Astrobiology</i> (2018)</a></li>
+	   <li><a href="http://onlinelibrary.wiley.com/doi/10.1002/2017JG004067/full">5. (REVIEW) 
+		   Moore, E.K., <b>Hao, J.</b>, Prabhu, A., Zhong, H., Jelen, B.I., Meyer, M., Hazen, R.M., Falkowski, 
+		   P.G. Geological and Chemical Factors that Impacted the Biological Utilization of Cobalt in the Archean Era.
+		   <i>Journal of Geophysical Research: Biogeosciences</i> (2018)</a></li>
+	   <li><a href="https://www.mdpi.com/2075-1729/8/4/59">
+		   6. (INVITED REVIEW) Pedreira-Segade, U., <b>Hao, J.</b>, Razafitianamaharavo, A., Pelletier, M., Marry, 
+		   V., Le Crom, S., Michot, L., Daniel, I. 
+		   How do nucleotides adsorb onto clays? <i>Life</i> (2018)</a></li>
+	   <li><a href="https://pubs.acs.org/doi/10.1021/acsearthspacechem.8b00145">
+		   7. <b>Hao, J.</b>, Mokhtari, M., Pedreira-Segade, U., Michot, L.M., and Daniel, I. 
+		   Transition metals enhance the adsorption of nucleotides onto clay: implications for the origin of life.
+		   <i>ACS Earth and Space Chemistry</i> (2019)</a></li>
+	   <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0009254119302542?via%3Dihub">
+		   8. <b>Hao, J.</b>, Sverjensky, D.A., and Hazen, R.M. Redox states of Archean surficial environments:
+		   the importance of H2,g instead of O2,g for weathering reactions. <i>Chemical Geology</i> (2019) </a></li>
+           <li><a href="https://pubs.acs.org/doi/pdf/10.1021/acsearthspacechem.9b00043?rand=mziu04j0">
+		   9. Pedreira-Segade, U., <b>Hao, J.</b>, Montagnac, G., Cardon, H., and Daniel, I. Spontaneous polymerization 
+		   of glycine under hydrothermal conditions. <i>ACS Earth and Space Chemistry</i> (2019) </a></li>
+	   <li><a href="https://www.geochemicalperspectivesletters.org/article1926">
+		   10. Huang, J., <b>Hao, J.</b>, Huang, F., and, Sverjensky, D.A. Mobility of chromium in high 
+		   temperature crustal and upper mantle fluids. <i>Geochemical Perspectives Letters</i> (2019) </a></li>
+	   <li><a href="https://www.sciencedirect.com/science/article/pii/S001670372030048X">
+		   11. <b>Hao, J.</b>, Knoll, A.H., Huang, F., Hazen, R.M. and, Daniel, I. Cycling Phosphorus on the Archean Earth: 
+		   Part I. Continental weathering and riverine transport of phosphorus. <i>Geochimica et Cosmochimica Acta</i> (2020) </a></li>
+	   <li><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/gbi.12375">
+		   12. Moore*, E.K., <b>Hao*, J.</b>, Spielman, S.J., and, Yee, N. The evolving redox chemistry and bioavailability of vanadium
+in deep time. <i>Geobiology</i> (2020; *equal contribution) </a></li>
+	   <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0169131720301095">
+		   13. Mignon, P., Corbin, G., Le Crom, S., Marry, V., <b>Hao, J.</b>, Daniel, I. Adsorption of Nucleotides on Clay Surfaces. 
+		   Effects of mineral composition, pH and solution salts. <i>Applied Clay Science</i> (2020) </a></li>
+	   <li><a href="https://www.sciencedirect.com/science/article/pii/S0016703720302325">
+		   14. <b>Hao, J.</b>, Knoll, A.H., Huang, F., Schieber, J., Hazen, R.M., and, Daniel, I. 
+		   Cycling Phosphorus on the Archean Earth: Part II. 
+		   Phosphorus Limitation on Primary Production in Archean Ecosystems <i>Geochimica et Cosmochimica Acta</i> (2020) </a></li>
+		<li><a href="https://www.frontiersin.org/articles/10.3389/feart.2020.00209/abstract">
+		   15. Barbier, S., Huang, F., Andreani, M., Tao, R., <b>Hao, J.</b>, Eleish, A., Prabhu, A., Minhas, O.,
+			Fontaine, K., Fox, P., Daniel, I.
+			A review of H2, CH4 and hydrocarbon formation in experimental serpentinization using network analysis
+			<i>Frontiers in Earth Sciences</i></a></li>
+		<li>
+		   16. Zhou, Q., Jiang, Y., <b>Hao, J.</b>, Ji, J., Li#, W. 
+			Advances in the study of biogeochemical cycles of phosphorus (in Chinese), 
+			<i>Geological Journal of China Universities </i> (accepted)</li>
+		<li><a href="https://www.pnas.org/content/early/2020/08/26/2002175117">
+		   17. Liu, W., <b>Hao, J.</b>, Yee, N., Elzinga, E.J., Piotrowiak, P., Nanda, V., Falkowski, P.  
+			Anoxic photogeochemical oxidation of manganese carbonate yields manganese oxide. 
+			<i>Proceedings of National Academy of Sciences </i> (2020)</li></a>
+		<li><a href="https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/gdj3.105">
+		   18. Huang, F., Barbier, S., Tao, R., <b>Hao, J.</b>, and others.   
+			Dataset for H2, CH4 and organic compounds formation during experimental serpentinization. 
+			<i>Geoscience Data Journal</i> (2020)</li></a>
+	        <li><a href="https://authors.elsevier.com/c/1cMBbcTCC6~KO">
+		   19. Montagnac, G., <b>Hao, J.</b>, Pedreira-Segade, U., Daniel, I. 
+			Detection of nucleotides absorbed onto clay by UV Resonant Raman Spectroscopy: 
+			a step towards the search for biosignatures on Mars, 
+			<i>Applied Clay Science</i> (2021)</li></a>
+		<li><a href="https://science.sciencemag.org/content/371/6530/728">
+		   20. Tang, M., Chu, X., <b>Hao, J.</b>, Shen, B. 
+			Orogenic quiescence in Earth’s middle age, 
+			<i>Science</i> (2021)</li></a>
+	</ul>
+        
+        <h2>Honors and Awards</h2>
+        <ul>
+           <li>Pre-doctoral Associate, Geophysical Laboratory, Carnegie Institution of Washington, USA, 2013, summer-2016.</li>
+           <li>Early Career Science Ambassador travel grant, European Association of Geochemistry, 2017.</li>
+	   <li>Elliott Field Fund for field research expenses, Department of Earth and Planetary Sciences, Johns Hopkins University, 2016.</li>
+	   <li>US Student NASA Funding-Goldschmidt 2016, NASA, 2016.</li>
+	   <li>DCO travel grant, Deep Carbon Observatory, 2014.</li>
+	   <li>Ph.D. Fellowship, Johns Hopkins University, USA, 2012</li>
+           <li>Zhao JIUZHANG Scholarship, Chinese Academy of Sciences, China, 2011</li>
+           <li>National Scholarship, Ministry of Education, China, 2010</li>
+        </ul>
+         
+	
+	<h2>Invited Seminars and Colloquia</h2>
+        <ul>
+	   <li>2020 (online): Rutgers University, USA; Montclair State University, USA; 
+		   ETH-Zurich, Switzerland; Earth-Life Science Institute, Japan; 
+		   University of Science and Technology of China, China; 
+		   Huiming Bao’s group, Nanjing University, China; 
+		   China University of Geosciences, China; ENIGMA Annual Symposium, Rutgers University, USA; 
+		   Peking University, Beijing, China</li>
+	   <li>2019: Deep Sea Institute (Chinese Academy of Sciences); Nanjing University; Rutgers University, Macau University of Science and Technology, Macau, China</li;
+		Macau University of Science and Technology, Macau, China</li>
+	   <li>2018: Sun Yat-Sen Univeristy; China University of Geosciences; University of Science and Technology of China;
+		   Universite Claude Bernard Lyon1</li>
+	   <li>2017: Louisiana State University; Peking University</li>	
+	   <li>2015: University of Science and Technology of China</li>
+           <li>2014: Carnegie Institution of Washington</li>
+</ul>
+        
+        <h2>Conference Presentations (First Authors)</h2>
+        <ul>
+           <li>2019, (<b>INVITED</b>) <b>Effects of temperature and pressure on the interaction 
+		   between mineral surfaces and life elements: 
+		   implications for the origin and early evolution of life</b>, AbSciCon, Bellevue, USA</li>
+	   <li>2018, <b>Transition metals enhance the adsorption of nucleotides onto clays: implications for the 
+		   origin of life</b>, Goldschmidt Conference, Boston, USA</li>
+	   <li>2017, <b>Compatibility of amino acids in ice Ih and high-pressure phases: 
+		   implications for the origin of life</b>, AGU Fall Meeting in New Orleans, USA</li>
+	   <li>2017, <b>Compatibility of amino acids in ice Ih: implications for the origin of life</b>, 
+		   Goldschmidt Conference in Paris, France</li>
+	   <li>2016, <b>Importance of Atmospheric H2 in Surficial Environments of the Archean</b>, 
+		   Second DCO Yellowstone Summer School, USA</li>
+           <li>2016, <b>Weathering and late Archean riverine transport</b>, Australasian Astrobiology Meeting in 
+		   Perth, Australia</li>
+           <li>2016, <b>Weathering and Late Archean World Average River Water</b>, 
+		   Goldschmidt Conference in Yokohama, Japan</li>
+           <li>2015, <b>Chromium Redox Equilibria in Fluids and Minerals under Hydrothermal 
+		   and Subduction-zone Conditions</b>, AGU Fall Conference, San Francisco, USA</li>
+           <li>2015, <b>Equilibrium Chromium Isotopic Fractionation as Functions of Redox and 
+		   pH on the Early Earth</b>, Goldschmidt Conference in Prague, Czech Republic</li>
+           <li>2014, <b>Limits on the Partial Pressure of H2 in the Archean Atmosphere during 
+		   Weathering of Basaltic Minerals</b>, Goldschmidt Conference, Sacramento, California, USA</li>
+        </ul>
+        
+
+        <h2>Teaching Activities</h2>
+        <ul>
+           <li>AS.271.107.01.SP15 Introduction to Sustainability, Johns Hopkins University, 2015 Spring. Teaching assistant, 
+		   with Prof. Cindy Parker.</li>
+           <li>AS.270.114.01.SP14 Guided Tour: The Planets, Johns Hopkins University, 2014 Spring. Teaching assistant, 
+		   with Prof. Bruce Marsh and Prof. Darrell Strobel.</li>
+           <li>AS.270.102.01/02.FA13 Conversations with the Earth, Johns Hopkins University, 2013 Fall. Teaching assistant, 
+		   with Prof. Bruce Marsh and Prof. Darrell Strobel.</li>
+        
+        </ul>
+		
+        
+        <h2>Laboratory Skills</h2>
+        <ul>
+           <li><b>Analytical techniques</b>: Ion Chromatography with Dionex ICS-5000 DP dual pump system, 
+		   UV-spectroscopy, X-ray Diffraction (XRD), Scanning Electron Microscope (SEM),
+		   Raman spectroscopy</li>
+           <li><b>Interfacial geochemistry</b>: Batch adsorption techniques under ambient T-P, high T-P adsorption facility</li>
+	   <li><b>High T-P experiments on hydrothermal systems</b>:
+		PUK 3S Plus Professional Precision Welder, gold tubes hydrothermal techniques, 
+		   Teflon autoclave reactors, diamond anvil cell facilities</li>
+        </ul>
+        
+        <h2>Current Research Projects</h2>
+        <ul>
+           <li>Participant，<a href="https://enigma.rutgers.edu/">“Evolution of Nanomachines In Geospheres
+		   and Microbial Ancestors"</a>, NASA Astrobiology Institute, USA. 2019-Present.</li>
+	   <li>Participant，<a href="https://dtdi.carnegiescience.edu/">“The Co-Evolution of the Geo- and Biospheres: 
+		   An Integrated Program for Data-Driven, Abductive Discovery in the Earth Sciences”</a>, 
+		   Keck Foundation, USA. 2015-Present.</li>
+  	   <li>Participant in the PREBIOM project <a href="http://www.agence-nationale-recherche.fr/?Project=ANR-15-CE31-0010">
+	   “Primitive Earth - Biomolecules Interacting with hydrothermal Oceanic Minerals”</a>, the Agence Nationale de la Recherche 
+		   (ANR), France  2016-Present.</li>
+        </ul>
+       
+	<h2>Service</h2>
+        <ul>
+           <li>Journal Reviewer: Nature Communications, Geology, Geochimica et Cosmochimica Acta, Geophysical Research Letters,
+		   Precambrian Research, Chemical Geology, American Mineralogist, Astrobiology,
+		   Frontiers in Earth Science, Life, Applied Clay Science, ACS Earth and Space Chemistry, 
+		   Origin of Life and Evolution of Biospheres, Life, Symmetry, 
+		   European Journal of Mineralogy, Journal of Visualized Experiments, 
+		   AIMS Geosciences</li>
+	   <li>Proposal Reviewer: Mars 2020 Participating Scientist Program (Non-panelist)</li>
+           <li>Editorial: <a href="https://www.sciencedirect.com/journal/applied-clay-science/special-issue/101XS1LDFT9">
+		   Applied Clay Sciences</a> (Guest editor, 2019)</li>
+	   <li>Session convener:</li>
+		<li><a href="https://agu.confex.com/agu/fm20/prelim.cgi/Session/105592">
+			EP059: "Photogeochemistry of air-mineral-water-life on Earth and extraterrestrial planets”, 
+			2020 AGU Fall meeting, San Francisco, California, USA.</a></li>
+		<li><a href="https://euroclay2019.sciencesconf.org/resource/page/id/9">
+		    B6 “The roles of clay minerals in the origin of life", 
+		   International Conference on Clay Science and Technology, Paris, 2019.</a></li>
+		
+		<li><a href="https://goldschmidt.info/2019/program/programViewThemes">
+		   011h “Biosignatures and Biogeochemical Potential of Habitable Environments 
+			throughout the Solar System and Exoplanets”, 
+		   2019 Goldschmidt Conference, Barcelona, Spain.</a></li>
+		
+		<li><a href="https://agu.confex.com/agu/fm19/meetingapp.cgi/Session/91333">
+		   EP013. “Application of data and machine learning in Earth science”, 
+		   2019 AGU, San Francisco, USA.</a></li>
+       	        
+		</ul>
+	
+	<h2>Outreach</h2>
+        <ul>
+           <li>2018, <b>Diamond - A Window to the Ineteriors of the Earth and Other Planets</b>, invited speaker at 
+		   Espace-Ulys, University of Lyon, Lyon, France</li>
+	    <li><a href="https://dailytargum.com/article/2020/09/rutgers-researchers-discuss-discovery-of-phosphine-in-atmosphere-of-venus">
+		    2020, <b>Rutgers researchers discuss discovery of phosphine in atmosphere of Venus</b>,
+		   newspaper interview</a></li>
+	   <li><a href="https://mp.weixin.qq.com/s/GYf29H9sw9sLMxOx9G-oFg">2020, <b>Phosphorus on the Earth-Part I. modern (in Chinese)</b>,
+		   popular science writing on Wechat</a></li>
+            <li><a href="https://mp.weixin.qq.com/s/aE9eZbq0UBBTTWf8Y6SHLw">2020, <b>Phosphorus on the Earth-Part II. past (in Chinese)</b>,
+		   popular science writing on Wechat</a></li>
+           <li>2021-Now, <b>Faculty supervisor (1/2) of <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzg3NzMxNDczNA==&scene=124&uin=&key=&devicetype=Windows+10+x64&version=63010048&lang=zh_CN&a8scene=7&fontgear=2">
+		   "Chemical Planets"</b>,
+		   Wechat official account run by USTC graduate students</a></li>
+        </ul>
+		
+		
+   		<p><i class="file pdf outline icon"></i> <a href="./assets/Jihua's CV.pdf">PDF</a></p>
+   		
+	</div>
+
+    <div class="ui inverted vertical footer segment">
+		<div class="ui  center aligned container">© 2021 Jihua Hao</div>
+
+	</div>
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>
